@@ -1,0 +1,129 @@
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, minimal-ui">
+	<link rel="stylesheet" type="text/css" href="/images/opt/washing-v2/cat-style.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			var popularCat = $(".popularCat"),
+				popularCatItems = $("#popularCatItems"),
+				btnLinkTxt = $(".popularCat .btnLinkTxt"),
+				btnLinkIndicator = $(".popularCat .btnLink span.btnLinkIndicator")
+			;
+			popularCat.click(function(event){
+				event.preventDefault();
+				popularCatItems.slideToggle();
+				if($(this).hasClass('active')){
+					$(this).removeClass('active');
+					btnLinkTxt.html('VIEW All');
+					btnLinkIndicator.css('background', 'url(/images/opt/washing-v2/images/down.png) 0px 11px no-repeat');	
+
+				}else{
+					$(this).addClass('active');
+					btnLinkTxt.html('Close All');
+					btnLinkIndicator.css('background', 'url(/images/opt/washing-v2/images/up.png) 0px 11px no-repeat');	
+				}
+				
+			})
+		});
+	</script>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="/images/opt/washing-v2/cat-style.css">
+	<script type="text/javascript">
+		$(function(){
+			var popularCat = $(".popularCat"),
+				popularCatItems = $("#popularCatItems"),
+				btnLinkTxt = $(".popularCat .btnLinkTxt"),
+				btnLinkIndicator = $(".popularCat .btnLink span.btnLinkIndicator")
+			;
+			popularCat.click(function(event){
+				event.preventDefault();
+				popularCatItems.slideToggle();
+				if($(this).hasClass('active')){
+					$(this).removeClass('active');
+					btnLinkTxt.html('VIEW All');
+					btnLinkIndicator.css('background', 'url(/images/opt/washing-v2/images/down.png) 0px 11px no-repeat');	
+
+				}else{
+					$(this).addClass('active');
+					btnLinkTxt.html('Close All');
+					btnLinkIndicator.css('background', 'url(/images/opt/washing-v2/images/up.png) 0px 11px no-repeat');	
+				}
+				
+			})
+		});
+	</script>
+	<div class="catPageTiles">
+		<div class="catTile">
+			<a href="" title="Washing Machines">
+				<img src="/images/opt/washing-v2/images/washing-machine.png" alt="washing machine">
+				<p class="txtLink">Washing Machines</p>
+				<div class="btnLinkWrapper">
+					<p class="btnLink">SHOP NOW</p>
+				</div>
+			</a>
+		</div>
+		<div class="catTile right-sm">
+			<a href="" title="Washing Machines">
+				<img src="/images/opt/washing-v2/images/dryer.png" alt="Dryers">
+				<p class="txtLink">Dryers</p>
+				<div class="btnLinkWrapper">
+					<p class="btnLink">SHOP NOW</p>
+				</div>
+			</a>
+		</div>
+		<div class="catTile right-lg bottomTile-sm">
+			<a href="" title="Washer Dryer Combo">
+				<img src="/images/opt/washing-v2/images/washer-dryer-combo.png" alt="Washer Dryer Combo">
+				<p class="txtLink">Washer Dryer Combo</p>
+				<div class="btnLinkWrapper">
+					<p class="btnLink">SHOP NOW</p>
+				</div>
+			</a>
+		</div>
+		<div class="catTile popularCat bottomTile-lg bottomTile-sm">
+			<a href="" title="Washer Dryer Combo">
+				<img src="/images/opt/washing-v2/images/popular.png" alt="washing machine">
+				<p class="txtLink">Popular Categories</p>
+				<div class="btnLinkWrapper">
+					<p class="btnLink"><span class="btnLinkTxt">VIEW ALL</span><span class="btnLinkIndicator"></span></p>
+				</div>
+			</a>
+		</div>
+		<div id="popularCatItems" style="display:none">
+			<span class="indicator"></span>
+			<div class="popularCatItem">
+				<a href="" class="popImg" title="">
+					<img src="/images/opt/washing-v2/images/washing-machine.png" alt="">
+				</a>
+				<a href="" class="popHead" title="Samung Front Load Washing Machines"><h4>Samsung Front Load Washing Machines</h4></a>
+				<p class="popDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ante ipsum, facilisis eget vestibulum a, ullamcorper ac mi. Phasellus molestie vel diam egestas cursus. Nunc sed volutpat turpis, aliquet blandit felis.</p>
+				<div class="popBtn"><a href="" class="btnLink" title="">Shop Now</a></div>
+				<div class="clear"></div>
+			</div>
+			<div class="popularCatItem">
+				<a href="" class="popImg" title="">
+					<img src="/images/opt/washing-v2/images/washing-machine.png" alt="">
+				</a>
+				<a href="" class="popHead" title="Samung Front Load Washing Machines"><h4>Samsung Front Load Washing Machines</h4></a>
+				<p class="popDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ante ipsum, facilisis eget vestibulum a, ullamcorper ac mi. Phasellus molestie vel diam egestas cursus. Nunc sed volutpat turpis, aliquet blandit felis.</p>
+				<div class="popBtn"><a href="" class="btnLink" title="">Shop Now</a></div>
+				<div class="clear"></div>
+			</div>
+			<div class="popularCatItem">
+				<a href="" class="popImg" title="">
+					<img src="/images/opt/washing-v2/images/washing-machine.png" alt="">
+				</a>
+				<a href="" class="popHead" title="Samung Front Load Washing Machines"><h4>Samsung Front Load Washing Machines</h4></a>
+				<p class="popDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ante ipsum, facilisis eget vestibulum a, ullamcorper ac mi. Phasellus molestie vel diam egestas cursus. Nunc sed volutpat turpis, aliquet blandit felis.</p>
+				<div class="popBtn"><a href="" class="btnLink" title="">Shop Now</a></div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+</body>
+</html>
