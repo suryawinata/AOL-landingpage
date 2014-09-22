@@ -91,11 +91,24 @@ $(function(){
                 scrollTop: $(this).offset().top - 300
             }, 500);
             var idName = "#" + $(this).attr("id").replace('Btn',"");
+            if ($(window).width() < 768 ){
+                var loc = $(this).index();
+                if(loc % 2 == 0){
+                    catTile.eq(loc + 1).after($(idName));
+                }
+                else{
+                    catTile.eq(loc).after($(idName));
+                }
+            }
             if($(this).hasClass("active")){
                 $(idName).slideUp();
                 $(this).removeClass('active');
                 $(this).removeClass('hover_effect');
                 $(this).css('background','#fff');
+                $(this).find(".btnLinkIndicator").css('background', 'url(http://www.appliancesonline.com.au/images/opt/washing-v2/images/down.png) 0px 11px no-repeat');
+                if ($(window).width() < 768 ){
+                    $(idName).css('border-bottom', 'none');
+                }
             }
             else{
                 closeAllSubMenu();
@@ -103,6 +116,10 @@ $(function(){
                 $(this).addClass('active');
                 $(this).addClass('hover_effect');
                 $(this).css('background','#efefef');
+                $(this).find(".btnLinkIndicator").css('background', 'url(http://www.appliancesonline.com.au/images/opt/washing-v2/images/up.png) 0px 11px no-repeat');
+                if ($(window).width() < 768 ){
+                    $(idName).css('border-bottom', '1px solid #e0e0e0');
+                }
             }
             event.stopPropagation();
         }
@@ -111,6 +128,7 @@ $(function(){
         catTile.removeClass('active');
         catTile.removeClass('hover_effect');
         catTile.css('background','#fff');
+        catTile.find(".btnLinkIndicator").css('background', 'url(http://www.appliancesonline.com.au/images/opt/washing-v2/images/down.png) 0px 11px no-repeat');
         subMenu.slideUp().delay(300);
     }
 
