@@ -1,0 +1,523 @@
+body{
+    background-color: #ffffff;
+}
+.category-landing-body div.topic-content li {
+    margin-left: 0px;
+}
+.category-landing-body .imageStyle {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-height: 130px;
+    max-width: 130px;
+}
+.category-landing-body a {
+
+    font-weight: normal !important;
+}
+.category-landing-body h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #00b5cc;
+    text-align: center;
+    padding: 10px 0 15px 0;
+}
+.category-landing-body h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #00b5cc;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    text-transform: uppercase;  
+}
+.category-landing-body #ux-landing-carousel {
+    position: relative;
+    width: 100%;
+    min-height: 452px;
+    margin: 10px 0 20px 0;
+   
+}
+.category-landing-body .thumbs-wrapper {
+    float: left;
+    padding: 0 0 0px 0;
+    margin: 0 auto;
+    border: 0;
+    -webkit-box-shadow: rgba(150, 150, 150, 0.3) 0 0 1px 0;
+    -moz-box-shadow: rgba(150, 150, 150, 0.3) 0 0 1px 0;
+    box-shadow: rgba(150, 150, 150, 0.3) 0 0 1px 0;
+}
+.six-category {
+    width: 100%;
+}
+.six-category li {
+    width: 16.666%;
+}
+.four-category {
+	width: 66.6666%;
+}
+.four-category li {
+	width: 25%;
+}
+.three-category {
+    width: 50%;
+}
+.three-category li {
+    width: 33.333%;
+}
+.two-category {
+    width: 33.333%;
+}
+.two-category li {
+    width: 50%;
+}
+.one-category {
+    width: 16.666%;
+}
+.one-category li {
+    width: 100%;
+}
+.category-landing-body .product-column {
+    float: left;
+    width: 100%;
+    height: auto;
+    min-height: 271px;
+    border: 0;
+    box-sizing: border-box;
+}
+.category-landing-body #thumbs {
+    height: 192px;  
+}
+.category-landing-body .ul-thumbs {
+    display: block;
+}
+.category-landing-body .ul-thumbs li {
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 2px;
+    list-style: none;
+    float: left;
+}
+.category-landing-body .ul-thumbs a {
+    display: block;
+    color: #434343;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.category-landing-body .ul-thumbs a:hover {
+    color: #44ACB9;
+}   
+.category-landing-body .ul-thumbs p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 0 0 0;
+    text-decoration: underline;
+}   
+.category-landing-body .ul-thumbs li a .view-all {
+    cursor: pointer;
+    height: 18px;
+    width: 64px;
+    padding: 6px 10px 6px 10px;
+    font-family: 'Ubuntu', sans-serif !important;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    border-radius: 2px;
+    background-color: #10C640;
+    background: rgba(16, 198, 64, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px 0;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px auto;  
+}   
+.category-landing-body .ul-thumbs li a:hover .view-all {
+    background: rgba(16, 198, 64, 1);
+}           
+.category-landing-body .lone-rider {
+    width: 283px !important;
+}       
+.category-landing-body .lone-rider p{
+    left: 99px !important;
+}
+.main-wrapper {
+    float: left;
+    -webkit-box-shadow: rgba(150, 150, 150, 0.3) 0 0 5px 0;
+    -moz-box-shadow: rgba(150, 150, 150, 0.3) 0 0 5px 0;
+    box-shadow: rgba(150, 150, 150, 0.3) 0 0 5px 0;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-width : 319px) and (max-width : 480px) {
+/* STYLES GO HERE */
+    .six-category {
+        width: 100%;
+    }
+    .six-category li {
+        width: 50%;
+    }
+    .four-category {
+    	width: 100%;
+    }
+    .four-category li {
+    	width: 50%;
+    }
+    .three-category {
+        width: 100%;
+    }
+    .three-category li {
+        width: 50%;
+    }
+    .two-category {
+        width: 100%;
+    }
+    .two-category li {
+        width: 50%;
+    }
+    .one-category {
+        width: 100%;
+    }
+    .one-category li {
+        width: 100%;
+    }
+    .category-landing-body {
+        float: left;
+        padding-bottom: 10px;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: -10px;
+    }
+    .category-landing-body .ul-thumbs {
+        margin-top: -33px;
+    }
+    .category-landing-body .ul-thumbs li {
+        padding-top: 15px;
+    }
+    .category-landing-body .product-column {
+        min-height: none;
+        padding-bottom: 15px;
+    }
+}
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 481px)  and (max-width : 767px) {
+/* STYLES GO HERE */
+    .six-category {
+        width: 100%;
+    }
+    .six-category li {
+        width: 33.333%;
+    }
+    .four-category {
+    	width: 100%;
+    }
+    .four-category li {
+    	width: 50%;
+    }
+    .three-category {
+        width: 100%;
+    }
+    .three-category li {
+        width: 33.333%;
+    }
+    .two-category {
+        width: 66%;
+    }
+    .two-category li {
+        width: 50%;
+    }
+    .one-category {
+        width: 34%;
+    }
+    .one-category li {
+        width: 100%;
+    }
+    .category-landing-body {
+        float: left;
+        padding-bottom: 10px;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: -10px;
+    }
+    .category-landing-body .ul-thumbs {
+        margin-top: -33px;
+    }
+    .category-landing-body .ul-thumbs li {
+        padding-top: 15px;
+    }
+    .category-landing-body .product-column {
+        padding-bottom: 18px;
+    }
+    .hacks {
+    	width: 100% !important;
+    }
+}
+
+#ff-category-test .accordion {
+    width: 975px;
+    margin: 0 0 15px 0;
+    border: 1px solid #e8ebf2;
+}
+
+#ff-category-test .accordion .accordion-heading {
+    display: block;
+    color: #373737 !important;
+    font-size: 18px !important;
+    font-weight: normal;
+    padding: 20px 20px 20px 60px;
+    font-family: 'Ubuntu', sans-serif !important;
+    background-color: #f7f7f7;
+    background-image: none;
+    width: auto;
+    background-image: none;
+    text-indent: 0;
+    line-height: inherit;
+    height: auto;
+}
+
+#ff-category-test .accordion .accordion-heading .arrow-toggle {
+    top: 25px;
+    height: 15px;
+    width: 25px;
+    background-image: url(/images/opt/fridges-freezers/arrow.png);
+    left: 18px;
+    background-position: 0px -44px;
+}
+#ff-category-test .accordion .accordion-heading .arrow-toggle.on {
+    background-position: 0px -2px;
+}
+#ff-category-test .accordion .accordion-heading .text-toggle {
+        position: absolute;
+        top: 25px;
+    height: 15px;
+    width: 140px;
+    background-image: url(/images/opt/fridges-freezers/expand-collapse.png);
+    right: 16px;
+        background-position: 0px -2px;
+}
+#ff-category-test .accordion .accordion-heading .text-toggle.on {
+    background-position: 0px -46px;
+}
+#ff-category-test .accordion .section {
+    overflow: auto;
+    padding: 25px;
+    border-bottom: 3px solid #e8ebf2;
+}
+
+#ff-category-test .accordion .section h4 {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 17px;
+    color: #00b5cc;
+    margin: 0 0 20px 0;
+    text-align: left !important;
+}
+
+#ff-category-test .accordion h5 {
+    color: #46484e;
+    font-weight: normal;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+#ff-category-test .accordion .section table {
+    float: left;
+    margin: 20px 0 0 0;
+    border-collapse: collapse;  
+}
+#ff-category-test .accordion .section.capacity table {
+    width: 280px;   
+}
+#ff-category-test .accordion .section thead tr {
+    border: none;
+    background-color: none;
+    margin: 0 0 10px 0;
+}
+#ff-category-test .accordion .section thead tr th {
+    width: 204px;
+    border: none;
+    background-color: none;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    color: #00b5cc;
+    text-align: center;
+    padding: 10px;
+}
+#ff-category-test .accordion .section tbody tr {
+    width: 100%;
+    background-color: #fcfcfd;
+    border: 2px solid #eff0f5;
+}
+
+#ff-category-test .accordion .section td {
+    width: 172px;
+    padding: 16px;  
+    vertical-align: top;
+}
+#ff-category-test .accordion .section.capacity {
+    
+}
+#ff-category-test .accordion .section ul li {
+    margin-left: 15px;
+    margin-bottom: 7px;
+}
+#ff-category-test .accordion .section.capacity img {
+    /*display: block;
+    margin: 0 auto;*/
+}
+
+#ff-category-test .section.capacity .rating {
+    float: left;
+    margin: 0 25px 0 0;
+    padding: 26px 35px;
+    background-color: #fcfcfd;
+    border: 2px solid #eff0f5;
+    -webkit-box-shadow: 4px 4px 0px rgba(239, 240, 245, 1);
+    -moz-box-shadow:    4px 4px 0px rgba(239, 240, 245, 1);
+    box-shadow:         4px 4px 0px rgba(239, 240, 245, 1);
+}
+#ff-category-test .section.capacity .rating.last {
+    margin: 0;
+}
+#ff-category-test .section.capacity .rating p {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 0 0 0;
+}
+
+#ff-category-test .section.capacity .rating .price {
+    font-weight: 500;
+    font-size: 23px;
+    margin: 15px 0 0 0;
+    clear: left;
+}
+#ff-category-test .section.capacity .rating-blocks {
+    float: left;
+    margin: 25px 0 15px 12px;
+}
+#ff-category-test .section.energy-efficiency img {
+    float: right;
+}
+#ff-category-test .section.energy-efficiency div {
+    width: 77%;
+    float: left;
+}
+#ff-category-test .section.finish thead tr th.first {
+    width: 17%;
+}
+#ff-category-test .section.finish td {
+    width: 20%;
+    border-left: 2px solid #eff0f5;
+}
+#ff-category-test .section.finish .advantages {
+    width: 16%;
+    padding: 80px 0 0 0;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border-left: none;
+    background: url(http://appliancesonline.com.au/images/opt/fridges-freezers/icon_advantages.png) no-repeat center 18px;
+}
+#ff-category-test .section.finish .disadvantages {
+    width: 16%;
+    padding: 95px 0 0 0;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border-left: none;
+    background: url(http://appliancesonline.com.au/images/opt/fridges-freezers/icon_disadvantages.png) no-repeat center 30px;
+}
+#ff-category-test .section.top-tips .tips {
+    width: 62%;
+    float: left;
+}
+#ff-category-test .section.warranty div {
+    width: 75%;
+    float: left;
+}
+#ff-category-test .section.warranty p {
+    margin: 0 0 10px 0;
+}
+#ff-category-test .section.warranty img {
+    float: right;
+    margin: 6px 26px 0 0;
+}
+#ff-category-test .section .video {
+    float: right;
+}
+#ff-category-test .accordion.compare table {
+    border-collapse: collapse;
+}
+#ff-category-test .accordion.compare table tr {
+    border-bottom: 3px solid #e8ebf2;
+}
+#ff-category-test .accordion.compare table tr.odd {
+    background-color: #fafbfd;
+}
+#ff-category-test .accordion.compare td {
+        position: relative;
+    width: 21%;
+    vertical-align: top;
+    padding: 15px;
+    border: 1px solid #e8ebf2;
+}
+#ff-category-test .accordion.compare td.first {
+    width: 16%;
+    border: none;
+    text-align: center;
+}
+
+#ff-category-test .accordion.compare thead tr {
+    border: none;   
+}
+#ff-category-test .accordion.compare thead tr th {
+    width: 204px;
+    border: none;
+    background-color: none;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    color: #00b5cc;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.1);
+}
+#ff-category-test .accordion.compare td img {
+    margin: 0 0 2px 0;
+}
+#ff-category-test .accordion.compare  h5 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+#ff-category-test .accordion tbody td li {
+    margin-left: 15px;
+}
+.back-to-top {
+        text-align: center;
+        padding: 20px;
+}
+.back-to-top a {
+        background: url(/images/opt/fridges-freezers/arrow.png) no-repeat right 0px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #00b5cc;
+        text-transform: uppercase;
+        padding: 0 32px 0 0;
+}
