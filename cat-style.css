@@ -221,7 +221,7 @@ padding: 10px 0 15px 0;
 	font-weight: 400;
 }
 
-.loadTile a.btnLink{
+.popularFilterTile a.btnLink{
 	width: 100px;
 	display: block;
 	float: left;
@@ -254,7 +254,7 @@ padding: 10px 0 15px 0;
   	text-align: center;
 }
 
-.loadTile .btnLinkWrapper{
+.popularFilterTile .btnLinkWrapper{
 	padding: 0 50px;
 	-webkit-box-sizing: border-box; 
   	-moz-box-sizing: border-box;    
@@ -418,11 +418,11 @@ padding: 10px 0 15px 0;
 		margin-left: 2.5%;
 	}
 
-	.loadTile a.btnLink{
+	.popularFilterTile a.btnLink{
 		width: 40%;
 		margin-left: 7.5%;
 	}
-	.loadTile .btnLinkWrapper{
+	.popularFilterTile .btnLinkWrapper{
 		padding: 0 10%;
 	}
 	.popularCat:hover, .popularCat.hover_effect, #topLoadBtn:hover, #frontLoadBtn:hover, #topLoadBtn.hover_effect, #frontLoadBtn.hover_effect{
